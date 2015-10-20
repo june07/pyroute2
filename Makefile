@@ -47,7 +47,9 @@ wlevel ?= once
 # Other options
 #
 # root      -- install root (default: platform default)
+root ?= build
 # lib       -- lib installation target (default: platform default)
+lib ?= lib
 # coverage  -- whether to produce html coverage (default: false)
 # pdb       -- whether to run pdb on errors (default: false)
 # module    -- run only the specified test module (default: run all)
